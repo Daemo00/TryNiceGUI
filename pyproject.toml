@@ -1,0 +1,44 @@
+# Specifications for this file are in https://packaging.python.org/specifications/core-metadata
+[project]
+name = "TryNiceGUI"
+readme = "README.md"
+dynamic = ["version"]
+keywords = [
+  "development",
+]
+
+authors = [
+  { name = "Simone Rubino", email = "daemo00@gmail.com" },
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+]
+
+dependencies = [
+  "nicegui",
+]
+
+[project.optional-dependencies]
+docs = [
+	"sphinx",
+	"sphinx-immaterial",
+]
+
+
+[project.scripts]
+add_number = "TryNiceGUI:cli.main"
+
+
+[tool.setuptools_scm]
+write_to = "src/TryNiceGUI/__version__.py"
+
+[build-system]
+requires = [
+  "setuptools>=45",
+  "setuptools_scm[toml]>=6.2",
+  "wheel",
+]
+build-backend = "setuptools.build_meta"

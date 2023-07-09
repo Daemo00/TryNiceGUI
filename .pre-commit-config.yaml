@@ -1,0 +1,37 @@
+# See https://pre-commit.com for more information
+repos:
+-   repo: https://github.com/pycqa/flake8
+    rev: 6.0.0
+    hooks:
+    -   id: flake8
+-   repo: https://github.com/PyCQA/autoflake
+    rev: v2.1.1
+    hooks:
+    -   id: autoflake
+-   repo: https://github.com/pycqa/bandit
+    rev: 1.7.5
+    hooks:
+    -   id: bandit
+-   repo: https://github.com/pycqa/pydocstyle
+    rev: 6.3.0
+    hooks:
+    -   id: pydocstyle
+        name: Enforce docstrings
+-   repo: https://github.com/pycqa/docformatter
+    rev: v1.6.4
+    hooks:
+    -   id: docformatter
+        name: Fix docstrings
+-   repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v2.0.2
+    hooks:
+    -   id: autopep8
+-   repo: https://github.com/asottile/add-trailing-comma
+    rev: v2.4.0
+    hooks:
+    -   id: add-trailing-comma
+-   repo: https://github.com/dosisod/refurb
+    rev: v1.16.0
+    hooks:
+      - id: refurb
+        name: Refurb

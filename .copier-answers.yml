@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier
+_commit: 5b6b924
+_src_path: https://github.com/Daemo00/Python-Package-Template-using-Copier
+author_email: daemo00@gmail.com
+author_full_name: Simone Rubino
+cli: true
+dependency: nicegui
+optional_dependency: ''
+package_name: TryNiceGUI

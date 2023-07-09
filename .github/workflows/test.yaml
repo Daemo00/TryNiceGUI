@@ -1,0 +1,25 @@
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        python: ['3.7', '3.8', '3.9', '3.10', '3.11']
+        platform: [ubuntu-latest, macos-latest, windows-latest]
+    runs-on: ${{ matrix.platform }}
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python }}
+    - name: Allow to install global packages
+      run: pip install pipx
+    - name: Install test dependencies
+      run: pipx install tox
+    - name: Test
+      run: tox -e py,report
+    - name: Codecov
+      uses: codecov/codecov-action@v3
