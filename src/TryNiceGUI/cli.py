@@ -1,7 +1,7 @@
 """CLI entry points."""
 import argparse
 
-from nicegui import ui
+from .main import run
 
 
 def parse_args(args=None):
@@ -13,7 +13,4 @@ def parse_args(args=None):
 def main(args=None):
     """Entry point for the application script."""
     args = parse_args(args=args)
-
-
-ui.label('Hello NiceGUI!')
-ui.run(dark=True)
+    return run()
