@@ -1,23 +1,23 @@
 ﻿TryNiceGUI
-===========
+==========
 
 .. automodule:: TryNiceGUI
 
+   
+   
+   
 
+   
+   
+   
 
+   
+   
+   
 
-
-
-
-
-
-
-
-
-
-
-
-
+   
+   
+   
 
 
 
@@ -29,3 +29,4 @@
 
    TryNiceGUI.cli
    TryNiceGUI.main
+

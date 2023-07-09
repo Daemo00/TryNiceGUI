@@ -29,7 +29,7 @@ docs = [
 
 
 [project.scripts]
-add_number = "TryNiceGUI:cli.main"
+run = "TryNiceGUI:cli.main"
 
 
 [tool.setuptools_scm]
