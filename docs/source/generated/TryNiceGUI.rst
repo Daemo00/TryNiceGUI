@@ -28,5 +28,8 @@
    :recursive:
 
    TryNiceGUI.cli
+   TryNiceGUI.home_page
    TryNiceGUI.main
+   TryNiceGUI.menu
+   TryNiceGUI.theme
 

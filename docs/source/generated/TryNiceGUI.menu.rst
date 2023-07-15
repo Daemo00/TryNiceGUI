@@ -1,7 +1,7 @@
-TryNiceGUI.main
+TryNiceGUI.menu
 ===============
 
-.. automodule:: TryNiceGUI.main
+.. automodule:: TryNiceGUI.menu
 
    
    
@@ -13,8 +13,7 @@ TryNiceGUI.main
 
    .. autosummary::
    
-      populate_ui
-      run
+      menu
    
    
 

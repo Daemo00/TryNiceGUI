@@ -1,7 +1,7 @@
-TryNiceGUI.main
-===============
+TryNiceGUI.theme
+================
 
-.. automodule:: TryNiceGUI.main
+.. automodule:: TryNiceGUI.theme
 
    
    
@@ -13,8 +13,7 @@ TryNiceGUI.main
 
    .. autosummary::
    
-      populate_ui
-      run
+      frame
    
    
 

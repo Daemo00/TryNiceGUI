@@ -1,7 +1,7 @@
-TryNiceGUI.main
-===============
+TryNiceGUI.home\_page
+=====================
 
-.. automodule:: TryNiceGUI.main
+.. automodule:: TryNiceGUI.home_page
 
    
    
@@ -13,8 +13,7 @@ TryNiceGUI.main
 
    .. autosummary::
    
-      populate_ui
-      run
+      content
    
    
 
