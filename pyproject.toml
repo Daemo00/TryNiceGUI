@@ -38,7 +38,7 @@ write_to = "src/TryNiceGUI/__version__.py"
 [build-system]
 requires = [
   "setuptools>=45",
-  "setuptools_scm[toml]>=6.2",
+  "setuptools_scm[toml]>=10.3.4",
   "wheel",
 ]
 build-backend = "setuptools.build_meta"
